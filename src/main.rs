@@ -3,7 +3,7 @@ use std::io::{prelude::*, BufReader};
 use std::net::{TcpListener, TcpStream};
 use std::thread;
 use std::time::Duration;
-use hello::ThreadPool;
+use mini_server::ThreadPool;
 
 fn main() {
     // use private network ip address
